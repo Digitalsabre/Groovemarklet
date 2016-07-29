@@ -97,7 +97,7 @@
 /*      var song = $('.playbackSoundBadge__title>span[aria-hidden]').text(),
             title = "Soundcloud - " + song;
 */
-        var song = $('.active .sc-link-light').text() + ' - ' + $('div.active .trackItem__trackTitle').text(),
+        var song = $('.trackItem__content').text(),
             title = "Soundcloud - " + song;
 
         return {
